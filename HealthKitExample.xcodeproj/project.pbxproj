@@ -8,22 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		41A2345A1DC25E36009EEDEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A234591DC25E36009EEDEB /* AppDelegate.swift */; };
-		41A2345C1DC25E36009EEDEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2345B1DC25E36009EEDEB /* ViewController.swift */; };
 		41A2345F1DC25E36009EEDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A2345D1DC25E36009EEDEB /* Main.storyboard */; };
 		41A234621DC25E36009EEDEB /* HealthKitExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41A234601DC25E36009EEDEB /* HealthKitExample.xcdatamodeld */; };
 		41A234641DC25E36009EEDEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A234631DC25E36009EEDEB /* Assets.xcassets */; };
 		41A234671DC25E36009EEDEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A234651DC25E36009EEDEB /* LaunchScreen.storyboard */; };
+		41A2346F1DC26162009EEDEB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2346E1DC26162009EEDEB /* MasterViewController.swift */; };
+		41A234711DC26268009EEDEB /* MasterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A234701DC26268009EEDEB /* MasterCell.swift */; };
+		41A234761DC265D2009EEDEB /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A234751DC265D2009EEDEB /* HealthKit.framework */; };
+		41A234781DC270EC009EEDEB /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A234771DC270EC009EEDEB /* ProfileCell.swift */; };
+		41A2347A1DC27161009EEDEB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A234791DC27161009EEDEB /* ProfileViewController.swift */; };
+		41A2347C1DC27641009EEDEB /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2347B1DC27641009EEDEB /* HealthManager.swift */; };
+		41A2347E1DC27F9A009EEDEB /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2347D1DC27F9A009EEDEB /* WorkoutViewController.swift */; };
+		41A234811DC28119009EEDEB /* AddWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A234801DC28119009EEDEB /* AddWorkoutViewController.swift */; };
+		41A234831DC28151009EEDEB /* NewWorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A234821DC28151009EEDEB /* NewWorkoutCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41A234561DC25E35009EEDEB /* HealthKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A234591DC25E36009EEDEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41A2345B1DC25E36009EEDEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41A2345E1DC25E36009EEDEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41A234611DC25E36009EEDEB /* HealthKitExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthKitExample.xcdatamodel; sourceTree = "<group>"; };
 		41A234631DC25E36009EEDEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A234661DC25E36009EEDEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A234681DC25E36009EEDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A2346E1DC26162009EEDEB /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		41A234701DC26268009EEDEB /* MasterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterCell.swift; sourceTree = "<group>"; };
+		41A234731DC265D1009EEDEB /* HealthKitExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthKitExample.entitlements; sourceTree = "<group>"; };
+		41A234751DC265D2009EEDEB /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		41A234771DC270EC009EEDEB /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		41A234791DC27161009EEDEB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		41A2347B1DC27641009EEDEB /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		41A2347D1DC27F9A009EEDEB /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		41A234801DC28119009EEDEB /* AddWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWorkoutViewController.swift; sourceTree = "<group>"; };
+		41A234821DC28151009EEDEB /* NewWorkoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewWorkoutCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41A234761DC265D2009EEDEB /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,7 @@
 			children = (
 				41A234581DC25E36009EEDEB /* HealthKitExample */,
 				41A234571DC25E35009EEDEB /* Products */,
+				41A234741DC265D2009EEDEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,47 @@
 		41A234581DC25E36009EEDEB /* HealthKitExample */ = {
 			isa = PBXGroup;
 			children = (
+				41A234731DC265D1009EEDEB /* HealthKitExample.entitlements */,
 				41A234591DC25E36009EEDEB /* AppDelegate.swift */,
-				41A2345B1DC25E36009EEDEB /* ViewController.swift */,
+				41A2347B1DC27641009EEDEB /* HealthManager.swift */,
 				41A2345D1DC25E36009EEDEB /* Main.storyboard */,
+				41A234721DC2626C009EEDEB /* Cells */,
+				41A2347F1DC280DD009EEDEB /* Controllers */,
 				41A234631DC25E36009EEDEB /* Assets.xcassets */,
 				41A234651DC25E36009EEDEB /* LaunchScreen.storyboard */,
 				41A234681DC25E36009EEDEB /* Info.plist */,
 				41A234601DC25E36009EEDEB /* HealthKitExample.xcdatamodeld */,
 			);
 			path = HealthKitExample;
+			sourceTree = "<group>";
+		};
+		41A234721DC2626C009EEDEB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				41A234771DC270EC009EEDEB /* ProfileCell.swift */,
+				41A234701DC26268009EEDEB /* MasterCell.swift */,
+				41A234821DC28151009EEDEB /* NewWorkoutCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		41A234741DC265D2009EEDEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41A234751DC265D2009EEDEB /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41A2347F1DC280DD009EEDEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				41A2346E1DC26162009EEDEB /* MasterViewController.swift */,
+				41A234791DC27161009EEDEB /* ProfileViewController.swift */,
+				41A2347D1DC27F9A009EEDEB /* WorkoutViewController.swift */,
+				41A234801DC28119009EEDEB /* AddWorkoutViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,6 +152,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = K42H5474Q9;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -140,9 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41A2345C1DC25E36009EEDEB /* ViewController.swift in Sources */,
+				41A2347E1DC27F9A009EEDEB /* WorkoutViewController.swift in Sources */,
+				41A2347A1DC27161009EEDEB /* ProfileViewController.swift in Sources */,
+				41A234811DC28119009EEDEB /* AddWorkoutViewController.swift in Sources */,
 				41A234621DC25E36009EEDEB /* HealthKitExample.xcdatamodeld in Sources */,
+				41A234831DC28151009EEDEB /* NewWorkoutCell.swift in Sources */,
 				41A2345A1DC25E36009EEDEB /* AppDelegate.swift in Sources */,
+				41A2346F1DC26162009EEDEB /* MasterViewController.swift in Sources */,
+				41A234711DC26268009EEDEB /* MasterCell.swift in Sources */,
+				41A234781DC270EC009EEDEB /* ProfileCell.swift in Sources */,
+				41A2347C1DC27641009EEDEB /* HealthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthKitExample/HealthKitExample.entitlements;
 				DEVELOPMENT_TEAM = K42H5474Q9;
 				INFOPLIST_FILE = HealthKitExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -276,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthKitExample/HealthKitExample.entitlements;
 				DEVELOPMENT_TEAM = K42H5474Q9;
 				INFOPLIST_FILE = HealthKitExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
